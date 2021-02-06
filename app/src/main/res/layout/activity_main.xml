@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/rll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_200sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:background="@drawable/buck"
+            />
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn1"
+            android:layout_marginStart="@dimen/_10sdp"
+           android:layout_marginTop="@dimen/_10sdp"
+            android:text="@string/city_of_stars"
+            android:textSize="@dimen/_15ssp"
+             />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_toRightOf="@id/btn1"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:background="@drawable/elephants_dream"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_200sdp"
+
+            />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/earned_it"
+            android:textSize="@dimen/_15ssp"
+            android:layout_below="@id/btn2"
+            android:layout_toRightOf="@id/txt1"
+            android:layout_marginLeft="@dimen/_60sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_200sdp"
+            android:background="@drawable/for_bigger_blazes"
+            android:layout_below="@id/txt1"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginStart="@dimen/_10sdp"/>
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/immortal_lover"
+            android:textSize="@dimen/_15ssp"
+            android:layout_below="@id/btn3"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+           />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_200sdp"
+            android:layout_below="@id/txt2"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_toRightOf="@id/btn3"
+            android:background="@drawable/for_bigger_escapes" />
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn4"
+            android:layout_toRightOf="@id/txt3"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_70sdp"
+            android:text="@string/mi_gente"
+            android:textSize="@dimen/_15ssp" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_200sdp"
+            android:layout_below="@id/txt3"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:background="@drawable/for_bigger_fun"
+            />
+
+        <TextView
+            android:id="@+id/txt5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_below="@id/btn5"
+            android:layout_marginTop="@dimen/_10sdp"
+
+            android:layout_marginStart="@dimen/_10sdp"
+            android:text="@string/tumbbad"
+            android:textSize="@dimen/_15ssp"
+           />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_200sdp"
+            android:layout_below="@+id/txt4"
+            android:layout_toRightOf="@id/btn5"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:background="@drawable/for_bigger_joyrides"
+
+             />
+
+        <TextView
+            android:id="@+id/txt6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn6"
+            android:layout_toRightOf="@id/txt5"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_90sdp"
+            android:text="@string/urvasi_crnatic"
+            android:textSize="@dimen/_15ssp"
+            />
+
+
+
+
+    </RelativeLayout>
+
+
+</androidx.core.widget.NestedScrollView>
